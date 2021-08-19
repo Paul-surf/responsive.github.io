@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+}
+
+#game {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5em;
+}
+
+#defaultCanvas0 {
+    border: 3px solid black;
+}
