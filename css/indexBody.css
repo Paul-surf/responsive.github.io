@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+}
+:root {
+    --color-: #d4e9e2;
+}
+body {
+    font-family: Manrope;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.introduction {
+    background-color: rgb(122, 209, 202);
+    font-size: large;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1.4em;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.projects {
+    background: var(--color-);
+    margin-top: 1.5em;
+    align-items: center;
+    position: static;
+    display: flex;
+    flex-direction: row;
+    /* make the direction column for max-width 320px*/
+}
+
+.contents {
+    display: block;
+    position: column;
+    height: auto;
+    text-align: center;
+}
+
+.sectionHeader {
+    padding-bottom: 25px;
+}
+
+.description {
+    padding: 1em 1em 0em;
+}
+
+@media screen and (min-width: 1200px){
+    main {
+        margin: 0% 10%
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .projects {
+        flex-direction: column;
+    }
+
+    .contents {
+        padding-bottom: 10px;
+    }
+
+    .sectionHeader {
+        padding-bottom: 0;
+    }
+}

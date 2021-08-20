@@ -2,17 +2,15 @@
     margin: 0;
 }
 
-:root {
-    --background: rgba(0, 214, 170, .85);
-}
-
 header {
-    background: var(--background);
+    background: rgba(0, 214, 170);
     text-align: center;
     position: fixed;
+    position: relative;
     width: 100%;
     z-index: 999;
     padding: 10px;
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0,0.3);
 }
 
 .nav-toggle {
@@ -60,7 +58,7 @@ nav {
     left: 0;
     padding-top: 10px;
     background: rgba(91, 196, 175, 0.85);
-    width: 20%;
+    width: 10%;
     transform: scale(1, 0);
     transform-origin: top;
     transition: transform 400ms ease-in-out;
@@ -118,7 +116,7 @@ nav a:hover {
         grid-column: 3 / 4;
         display: flex;
         justify-content: flex-end;
-        align-items: center;
+        align-items: center;    
     }
 
     nav a {
@@ -174,6 +172,6 @@ nav a:hover {
     }
 
     .logo::after {
-        content: "Programmering";
+        content: "Programming";
     }
 }
