@@ -68,7 +68,7 @@ footer a {
         height: 50px;
         margin-left: 66px;
         margin-top: 8px;
-        left: -5%;
+        left: 1%;
     }
 
     .secondSquare {
@@ -82,11 +82,5 @@ footer a {
         margin-top: 10px;
         margin-left: 10px;
         border: 10px solid var(--footer-);
-    }
-}
-
-@media screen and (max-width: 1400px) { 
-    .foot-logo {
-        left: 75%;
     }
 }
