@@ -3,6 +3,7 @@
 }
 :root {
     --color-: #d4e9e2;
+    --footer-: rgb(32, 32, 32);
 }
 body {
     font-family: Manrope;
@@ -47,32 +48,6 @@ img {
 
 .description {
     padding: 1em 1em 0em;
-}
-
-footer {
-    margin-top: 20px;
-    background: rgb(32, 32, 32);
-    padding: 3em 1em;
-    color: white;
-    display: flex;
-}
-
-footer a {
-    color: inherit;
-}
-
-.footer-nav {
-    list-style: none;
-    font-size: large;
-}
-
-.footer-nav a {
-    padding: 0.75em;
-    text-decoration: none;
-}
-
-.footer-nav a:hover {
-    text-decoration: underline;
 }
 
 @media screen and (min-width: 1200px){
