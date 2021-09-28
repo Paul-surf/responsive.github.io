@@ -32,7 +32,7 @@ footer a {
     border: 2px solid white;
     position: absolute;
     position: relative;
-    left: 80%;
+    left: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,6 +56,21 @@ footer a {
     margin-left: 15px;
     border: 15px solid var(--footer-);
     box-shadow: 0 0 0 2px white;
+}
+
+@media screen and (min-width: 1400) {
+    .foot-logo {
+    width: 75px;
+    height: 75px;
+    background: var(--footer-);
+    border: 2px solid white;
+    position: absolute;
+    position: relative;
+    left: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
 }
 
 @media screen and (max-width: 380px) {
