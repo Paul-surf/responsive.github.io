@@ -46,7 +46,7 @@ function draw() {
   circle(x2 + 10, 95 - y, 1);
   circle(x2 - 10, 97 - y, 1);
   strokeWeight(3);
-  stroke('red')
+  stroke('red');
   arc(x2, 107 - y, 8, 8, 0, PI - QUARTER_PI, CHORD);
   if (keyIsPressed) {
     speed = 3
